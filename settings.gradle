@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "MultiModule"
+include ':app'
+include ':dateformatter'
+include ':mptoast'
+include ':feature1'
+include ':feature1app'
+include ':feature2app'
+include ':feature2'
